@@ -1,0 +1,25 @@
+{
+  "name": "meteor-tachyons",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "postcss-easy-import": "^1.0.1",
+    "tachyons": "^4.0.0-beta.29"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-easy-import": {},
+      "autoprefixer": {
+        "browsers": [
+          "last 2 versions"
+        ]
+      }
+    }
+  }
+}
